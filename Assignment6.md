@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int hcf(int a, int b);
+int GCD(int a, int b);
 
 int main()
 {
@@ -25,7 +25,7 @@ int main()
 			cout << "Enter a positive integer!!" << endl;
 			cin >> b;
 		}
-		cout << "The GCD of " << a << " & " << b << " is: " << hcf(a, b) <<"\n"<< endl;
+		cout << "The GCD of " << a << " & " << b << " is: " << GCD(a, b) <<"\n"<< endl;
 		cout << "Would you like to retry? : ";
 		cin >> choice;
 		cout << "\n";
@@ -35,11 +35,10 @@ int main()
 	return 0;
 }
 
-int hcf(int a, int b)
+int GCD(int a, int b)
 {
 	if (b != 0)
-		return hcf(b, a % b);
+		return GCD(b, a % b);
 	else
 		return a;
 }
-
