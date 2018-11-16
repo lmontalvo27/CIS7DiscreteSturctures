@@ -1,6 +1,4 @@
-Part 1:
-
--Show that the square root of 2 is irrational
+Part 1: Show that the square root of 2 is irrational
 - Assume that √2 = a/b
 a and b are whole numbers | b != 0
 a = dm + 1 | b = dm + 1 | a and b cannot be even
@@ -36,9 +34,7 @@ Proof by contradiction.
 - If n^2 is odd, then n is odd.
 - Proof by contraposition.
 
-Part 2:
-
--Prove by induction that 1 + 5 + 9 + ... + (4n-3) = n(2n-1)
+Part 2: Prove by induction that 1 + 5 + 9 + ... + (4n-3) = n(2n-1)
 - Base Case: Assume n = 1
 - (4(1)-3) = 1(2(1)-1)
 - (4-3) = 1(2-1)
