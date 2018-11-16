@@ -1,4 +1,5 @@
 #include <iostream>
+#include <chrono>
 using namespace std;
 
 int GCD(int a, int b);
@@ -17,7 +18,7 @@ int main()
 			cout << "Enter a positive integer!!" << endl;
 			cin >> a;
 		}
-		
+
 		cout << "Enter the second positive integer: ";
 		cin >> b;
 		while (b < 0)
@@ -25,7 +26,14 @@ int main()
 			cout << "Enter a positive integer!!" << endl;
 			cin >> b;
 		}
-		cout << "The GCD of " << a << " & " << b << " is: " << GCD(a, b) <<"\n"<< endl;
+		auto start = std::chrono::high_resolution_clock::now();
+		
+		cout << "The GCD of " << a << " & " << b << " is: " << GCD(a, b) << "\n" << endl;
+		
+		auto finish = std::chrono::high_resolution_clock::now();
+		std::chrono::duration<double> elapsed = finish - start;
+		
+		cout << "Elapsed time: " << elapsed.count() * 1000 << " ms\n";
 		cout << "Would you like to retry? : ";
 		cin >> choice;
 		cout << "\n";
