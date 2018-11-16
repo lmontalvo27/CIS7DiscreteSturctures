@@ -26,7 +26,8 @@
       - sqrt(169) = 13
       - 144 + 25 = 169
       - sqrt(144) = 12 && sqrt(25) = 5
-  C. The sum of two odd integers is even. Hint: By definition, even integers can be expressed as 2n, 
+ 
+ C. The sum of two odd integers is even. Hint: By definition, even integers can be expressed as 2n, 
   thus odd integers can be expressed as 2n + 1:
     (DIRECT PROOF)
     Odd integer = 2n +- 1
@@ -37,7 +38,8 @@
       - Let k be (2n + 1)
       - 2K
       - 2K by definition is even.
-  D. The sum of an even integer and it's square is even:
+ 
+ D. The sum of an even integer and it's square is even:
     (DIRECT PROOF)
     Even integer = 2n
     Even integer and its square = (2n)^2 = 4n^2
@@ -48,7 +50,8 @@
       - let m = nk
       - 2m
       - 2m is even by definition
-  E. If n squared is odd, then n is odd:
+ 
+ E. If n squared is odd, then n is odd:
     (CONTRAPOSITION) If n squared is even, then n is even.
     n is an even integer: n = 2k
     n is squared is even: (2k)^2 => 4k^2 => 2(2k^2)
