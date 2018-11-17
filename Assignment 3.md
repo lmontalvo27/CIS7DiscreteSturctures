@@ -3,7 +3,7 @@ done, and M = mathematics is easy.
 Translate: (M → H)∧(S → C)
 - If mathematics is easy, then the homework is done and if it is sunny, then camping is fun.
 
-Translate: “Mathematics is easy or camping is fun, as long as it is sunny and the homework is done.”
+Translate into propositional logic: “Mathematics is easy or camping is fun, as long as it is sunny and the homework is done.”
 
 - (S ^ H)→(M v C)
 
@@ -29,11 +29,13 @@ Part 2:
 
 Part 3:
 - (p ∧ q) → r , p → (q → r )
+----------------------------------
 - (p ^ q)' v r <=> p' v (q' v r)  | Implication Law x3
 - (p' v q') v r <=> p' v (q' v r) | De Morgan's Law
 - (p' v q') v r <=> (p' v q') v r | Associative Law
 
 - (q v r ) → p, (q → p)∧(r → p)
+-------------------------------------
 - (q v r)'v p <=> (q' v p)^(r' v p) | Implication Law x3
 - (q v r)'v p <=> p v (q' ^ r')     | Distributive Law
 - (q v r)'v p <=> p v (q v r)'      | De Morgan's Law
