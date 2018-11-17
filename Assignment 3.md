@@ -26,7 +26,7 @@ Part 2:
 | T | F |  F |    F    |     T    |         F        |            T           |
 | F | T | T  |    T    |     T    |         T        |            F           |
 | F | F | T  |    T    |     T    |         T        |            F           |
-
+-------------------------------------------------------------------------------
 Part 3:
 - (p ∧ q) → r , p → (q → r )
 ----------------------------------
@@ -40,7 +40,7 @@ Part 3:
 - (q v r)'v p <=> p v (q' ^ r')     | Distributive Law
 - (q v r)'v p <=> p v (q v r)'      | De Morgan's Law
 - (q v r)'v p <=> (q v r)'v p       | Commutative Law
-
+--------------------------------------------------------
 Part 4: Let Loves(x,y) mean “x loves y,” Traveler(x) mean “x is a traveler,”
 City(x) mean “x is a city,” Lives(x,y) mean “x lives in y.” “z is a resident”
 Translate: ∃x∀y∀z(City(x)∧Traveler(y)∧Lives(z,x)) → (Loves(y,x)∧ ¬Loves(z,x))
@@ -50,8 +50,7 @@ Translate: ∃x∀y∀z(City(x)∧Traveler(y)∧Lives(z,x)) → (Loves(y,x)∧ �
 Translation- “No traveler loves the city they live in.”
 
 - ∀x∀y(traveler(y)^city(x)^lives(y,x)) → (¬Loves(y,x))
-
-
+---------------------------------------------------------------------------------------
 Part 5 Extra Credit: 
 Assuming: p → (q ∧r ), s → r , r → p
 Prove: s → q
@@ -68,3 +67,4 @@ Prove: q
 - p → s'  Double Negation Modus Ponen
 - p → q
 - q
+
