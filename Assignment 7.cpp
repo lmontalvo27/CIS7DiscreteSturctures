@@ -18,7 +18,7 @@ int main()
 {
 	int n;
 
-	cout << "Enter no. of disks:";
+	cout << "Enter number of disks: ";
 	cin >> n;
 	Tower(n, 'A', 'B', 'C');
 	
