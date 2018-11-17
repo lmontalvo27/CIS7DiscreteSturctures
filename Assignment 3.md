@@ -51,20 +51,4 @@ Translation- “No traveler loves the city they live in.”
 
 - ∀x∀y(traveler(y)^city(x)^lives(y,x)) → (¬Loves(y,x))
 ---------------------------------------------------------------------------------------
-Part 5 Extra Credit: 
-Assuming: p → (q ∧r ), s → r , r → p
-Prove: s → q
-- s   assume
-- r   Modus Ponen
-- p   
-- q ^ r 
-- q   
-- s → q from steps above.  
-
-Assuming: ¬(r ∨ s), ¬p → s, p → q. 
-Prove: q
-- r' ^ s' De Morgan's Law
-- p → s'  Double Negation Modus Ponen
-- p → q
-- q
 
