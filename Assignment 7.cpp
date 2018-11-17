@@ -21,6 +21,8 @@ int main()
 	cout << "Enter no. of disks:";
 	cin >> n;
 	Tower(n, 'A', 'B', 'C');
-
+	
+	system("pause");
+	
 	return 0;
 }
