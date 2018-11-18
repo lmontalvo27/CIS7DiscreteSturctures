@@ -1,1 +1,1 @@
-The most helpful video for me was the one about truth tables. I thought I had grapsed the concept during lecture 
+The most helpful video for me was the one about rules of inference. At first it was confusing for me to understand all of the rules of inferences. He starts with explaining the definition of the rules and writes them up in a way that it's easy to understand. Then uses some examples to show how the rules work with good detail and using different colors to show the rules.
